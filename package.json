@@ -1,0 +1,27 @@
+{
+  "name": "discord-ai-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api/bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node api/bot.js",
+    "vercel-build": "echo 'Build step for Vercel deployment'"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.3",
+    "dotenv": "^16.0.1",
+    "openai": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "openai",
+    "vercel"
+  ],
+  "author": "",
+  "license": "MIT"
+}
